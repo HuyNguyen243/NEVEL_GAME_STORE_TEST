@@ -11,7 +11,6 @@ const ButtonScroll = () => {
       setIsScrollToTop(false);
     }
   }, [isScrollToTop]);
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
