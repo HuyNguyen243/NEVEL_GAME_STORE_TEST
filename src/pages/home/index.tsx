@@ -7,7 +7,7 @@ import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
 const HomePage = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <AboutComponent />
       <AboutUsComponent />
