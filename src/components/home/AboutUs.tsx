@@ -38,7 +38,7 @@ const AboutUsComponent = () => {
               <CountUp
                 duration={5}
                 end={600}
-                className="text-6xl md:text-8xl text-tech-blue-100 font-bold"
+                className="text-5xl md:text-8xl text-tech-blue-100 font-bold"
               />
               <span className="text-3xl md:text-2xl text-tech-blue-100 font-bold">
                 M
@@ -54,7 +54,7 @@ const AboutUsComponent = () => {
               <CountUp
                 duration={5}
                 end={135}
-                className="text-6xl md:text-8xl text-tech-blue-100 font-bold"
+                className="text-5xl md:text-8xl text-tech-blue-100 font-bold"
               />
               <span className="text-6xl md:text-8xl text-tech-blue-100 font-bold">
                 +
