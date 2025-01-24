@@ -1,7 +1,9 @@
 -install project `npm install`
 -run project `npm run dev`
 
--github `https://github.com/HuyNguyen243/NEVEL_GAME_STORE_TEST`
+in [Section `Features`] `https://github.com/HuyNguyen243/NEVEL_GAME_STORE_TEST`
+
+in [Section `Features`] `https://vercel.com/huynhs-projects-06252a68/nevel-game-store-test/ARtM6o8wV1tLJqjSgvfkBsHqhuof`
 
 ![Image](./screen.png)
 
