@@ -3,7 +3,7 @@ import { lazy, Suspense } from "react";
 import "./cores/libs/i18n";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
-import ButtonScroll from "./components/layouts/buttonScroll";
+import ButtonScroll from "./components/layouts/ButtonScroll";
 const HomePage = lazy(() => import("./pages/home"));
 i18next.init({
   interpolation: { escapeValue: false }, // React already does escaping
