@@ -1,11 +1,23 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import { Route, Routes } from "react-router-dom";
+import { lazy, Suspense } from "react";
+import "./cores/libs/i18n";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+import ButtonScroll from "./components/layouts/buttonScroll";
+const HomePage = lazy(() => import("./pages/home"));
+i18next.init({
+  interpolation: { escapeValue: false }, // React already does escaping
+});
 function App() {
   return (
-    <>
-      <h1 className=" font-second ">Hello world!</h1>
-    </>
+    <I18nextProvider i18n={i18next}>
+      <Suspense>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+        <ButtonScroll />
+      </Suspense>
+    </I18nextProvider>
   );
 }
 
