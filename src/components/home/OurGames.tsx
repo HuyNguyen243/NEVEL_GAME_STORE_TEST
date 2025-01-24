@@ -17,7 +17,7 @@ const OurGamesComponent = () => {
         <h2 className=" font-second md:text-6xl  text-5xl font-bold text-center">
           {t("TECH.OUR")}
         </h2>
-        <p className=" font-first text-md text-center text-tech-gray-100 md:w-[1000px] p-0 md:p-4 md:pt-12 pt-6">
+        <p className=" font-first text-md text-center text-tech-gray-100 md:w-[1000px] p-0 md:p-4 md:pt-12 pt-6 px-2 xl:px-0">
           {t("TECH.OUR.CONTENT")}
         </p>
       </div>
